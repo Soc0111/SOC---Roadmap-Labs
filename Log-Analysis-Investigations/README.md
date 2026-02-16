@@ -16,3 +16,4 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 4. **[Case 04: Unauthorized Account Creation](./Unauthorized-Account-Creation)** — Detecting account takeover and backdoor user creation.
 5. **[Case 05: Data Exfiltration Detection](./Data-Exfiltration-Detection)** — Identifying unauthorized sensitive data transfers.
 6. **[Case 06: Failed Privilege Escalation](./Failed-Privilege-Escalation)** — Tracking attempted unauthorized access to system files.
+7. **[Case 07: Reconnaissance & Discovery](./Reconnaissance-Discovery)** — Monitoring suspicious commands from restricted accounts.
