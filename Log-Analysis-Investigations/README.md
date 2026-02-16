@@ -13,4 +13,6 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 1. **[Case 01: SSH Brute Force & Reverse Shell](./SSH-Reverse-Shell-Analysis)** — Detection of unauthorized access and backdoor installation.
 2. **[Case 02: Persistence via Cron](./Lab-Persistence-Crontab)** — Analysis of malicious scheduling for long-term access.
 3. **[Case 03: Phishing Domain Analysis](./Lab-Phishing-Analysis)** — Identifying typosquatting and suspicious DNS queries.
-And more...
+4. **[Case 04: Unauthorized Account Creation](./Unauthorized-Account-Creation)** — Detecting account takeover and backdoor user creation.
+5. **[Case 05: Data Exfiltration Detection](./Data-Exfiltration-Detection)** — Identifying unauthorized sensitive data transfers.
+6. **[Case 06: Failed Privilege Escalation](./Failed-Privilege-Escalation)** — Tracking attempted unauthorized access to system files.
