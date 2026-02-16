@@ -1,4 +1,4 @@
-# Case Study 03: Reconnaissance & System Enumeration 
+# Case Study 07: Reconnaissance & System Enumeration 
 
 ## 1. Executive Summary
 During log analysis, I detected suspicious activity from a restricted `guest` account. The user performed system enumeration, checking for installed network tools and OS version details. This is a typical reconnaissance phase preceding a targeted attack.
