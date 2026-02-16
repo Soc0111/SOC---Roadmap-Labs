@@ -1,4 +1,4 @@
-# Incident Report: SSH Brute-Force & Compromise 🚨
+# Incident Report: SSH Brute-Force & Compromise
 
 ## 1. Scenario Overview
 During a routine log review of a Linux-based server, I identified a series of suspicious authentication attempts followed by a successful unauthorized login. This report details the detection, analysis, and proposed response plan.
