@@ -17,3 +17,4 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 5. **[Case 05: Data Exfiltration Detection](./Data-Exfiltration-Detection)** — Identifying unauthorized sensitive data transfers.
 6. **[Case 06: Failed Privilege Escalation](./Failed-Privilege-Escalation)** — Tracking attempted unauthorized access to system files.
 7. **[Case 07: Reconnaissance & Discovery](./Reconnaissance-Discovery)** — Monitoring suspicious commands from restricted accounts.
+8. **[Case 08: Credential Sniffing in HTTP](./Network-Traffic-Sniffing)** — Identifying exposed plaintext passwords in unencrypted network traffic.
