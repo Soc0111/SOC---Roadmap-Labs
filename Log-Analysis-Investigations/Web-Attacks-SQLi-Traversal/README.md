@@ -1,4 +1,4 @@
-# Case Study 08: Web Application Attacks — SQLi & Path Traversal
+# Case Study 09: Web Application Attacks — SQLi & Path Traversal
 
 ## 1. Executive Summary
 During a review of Nginx access logs, I identified a series of malicious web requests originating from a single source IP. The attacker attempted to perform a Path Traversal attack to read system files and successfully executed an SQL Injection (SQLi) attack, resulting in a significant data leak.
