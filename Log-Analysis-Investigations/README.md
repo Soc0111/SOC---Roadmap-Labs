@@ -18,3 +18,4 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 6. **[Case 06: Failed Privilege Escalation](./Failed-Privilege-Escalation)** — Tracking attempted unauthorized access to system files.
 7. **[Case 07: Reconnaissance & Discovery](./Reconnaissance-Discovery)** — Monitoring suspicious commands from restricted accounts.
 8. **[Case 08: Credential Sniffing in HTTP](./Network-Traffic-Sniffing)** — Identifying exposed plaintext passwords in unencrypted network traffic.
+9. **[Case 09: Web Application Attacks — SQLi](./Web-Attacks-SQLi-Traversal)** — Successful SQL injection and directory traversal detection.
