@@ -1,4 +1,4 @@
-# Case Study 10: "Silent Night" — End-to-End Incident Analysis 🛡️
+# Case Study 10: Real-attack-Incident Analysis 🛡️
 
 ## 1. Executive Summary
 This case study represents a final skills assessment involving a multi-stage system compromise. I identified a successful SSH brute-force attack followed by the unauthorized installation of data exfiltration tools and the subsequent theft of sensitive database configurations. The attacker attempted to destroy evidence by clearing command histories.
