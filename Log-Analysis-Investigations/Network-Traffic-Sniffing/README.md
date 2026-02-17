@@ -1,4 +1,4 @@
-# Case Study 07: Credential Sniffing in Unencrypted Traffic (HTTP) 
+# Case Study 08: Credential Sniffing in Unencrypted Traffic (HTTP) 
 
 ## 1. Executive Summary
 During a network traffic analysis exercise using Wireshark, I identified a critical security vulnerability: a user's login credentials (username and password) were transmitted over the network in cleartext via the unencrypted HTTP protocol. This exposure allows any attacker with network access to intercept and steal sensitive data.
