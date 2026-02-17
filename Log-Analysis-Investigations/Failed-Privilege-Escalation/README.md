@@ -1,4 +1,4 @@
-# Case Study: Internal Threat — Failed Privilege Escalation Attempt 
+# Case Study 06: Internal Threat — Failed Privilege Escalation Attempt 
 
 ## 1. Executive Summary
 I detected an unauthorized attempt to access the system's password hash file (`/etc/shadow`) by a non-administrative user. Although the attempt was blocked by the system's security controls, it indicates a clear intent to escalate privileges.
