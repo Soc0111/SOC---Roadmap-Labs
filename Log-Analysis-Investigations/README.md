@@ -20,4 +20,4 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 8. **[Case 08: Credential Sniffing in HTTP](./Network-Traffic-Sniffing)** — Identifying exposed plaintext passwords in unencrypted network traffic.
 9. **[Case 09: Web Application Attacks — SQLi](./Web-Attacks-SQLi-Traversal)** — Successful SQL injection and directory traversal detection.
 10. **[Case 10: Real-attack-analysis](./Real-attack-analysis)** — Final assessment covering brute-force, exfiltration, and anti-forensics.
-11. **[Case 11: (Google)TCP SYN Flood Incident)](./(Google)TCP SYN Flood Incident)** - This project is part of my practice on the Google Cybersecurity course.
+11. **[Case 11: (Google)TCP-SYN-Flood-Incident](./(Google)TCP-SYN-Flood-Incident)** - This project is part of my practice on the Google Cybersecurity course.
