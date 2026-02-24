@@ -22,3 +22,4 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 10. **[Case 10: Real-attack-analysis](./Real-attack-analysis)** — Final assessment covering brute-force, exfiltration, and anti-forensics.
 11. **[Case 11: (Google)TCP-SYN-Flood-Incident](./(Google)TCP-SYN-Flood-Incident)** - This project is part of my practice on the Google Cybersecurity course.
 12. **[Case 12: (Google)Network-Traffic-Analysis-Incident-Response](./(Google)Network-Traffic-Analysis-Incident-Response)** - Compromised Web Host: Brute Force Attack & Malware Redirection Analysis
+13. **[Case 13: (Google)Network-Hardening-Assessment-Risk-Mitigation](./(Google)Network-Hardening-Assessment-Risk-Mitigation)**
