@@ -16,7 +16,7 @@ Task: Extract the exact time of each request using double processing (double sep
 
 ## 📂 A typical web server log format was used for analysis.
 ## Logs used for work and analysis (example):
-
+```text
 192.168.1.10 - - [03/Mar/2026:12:00:01] "GET /index.html" 200 1234
 192.168.1.10 - - [03/Mar/2026:12:05:30] "POST /login" 401 532
 192.168.1.20 - - [03/Mar/2026:12:10:15] "GET /admin" 403 231
