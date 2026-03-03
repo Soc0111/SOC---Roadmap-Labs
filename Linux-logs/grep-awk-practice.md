@@ -16,7 +16,7 @@ Task: Extract the exact time of each request using double processing (double sep
 
 ## 📂 A typical web server log format was used for analysis.
 ## Logs used for work and analysis (example):
-```text
+
 192.168.1.10 - - [03/Mar/2026:12:00:01] "GET /index.html" 200 1234
 192.168.1.10 - - [03/Mar/2026:12:05:30] "POST /login" 401 532
 192.168.1.20 - - [03/Mar/2026:12:10:15] "GET /admin" 403 231
@@ -25,7 +25,7 @@ Task: Extract the exact time of each request using double processing (double sep
 192.168.1.10 - - [03/Mar/2026:12:25:12] "POST /login" 200 120
 192.168.1.50 - - [03/Mar/2026:12:30:05] "GET /api/data" 500 999
 192.168.1.10 - - [03/Mar/2026:12:35:00] "POST /upload" 403 0
-```bash
+
 
 ## 🛠 Answers to the exercises
 ## Level 1: Data isolation:
