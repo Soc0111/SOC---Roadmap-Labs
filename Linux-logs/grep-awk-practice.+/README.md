@@ -18,13 +18,13 @@ Task: Extract the exact time of each request using double processing (double sep
 ## Logs used for work and analysis (example):
 
 192.168.1.10 - - [03/Mar/2026:12:00:01] "GET /index.html" 200 1234
-10.0.0.5 - - [03/Mar/2026:12:05:30] "POST /login" 401 532
+192.168.1.10 - - [03/Mar/2026:12:05:30] "POST /login" 401 532
 192.168.1.20 - - [03/Mar/2026:12:10:15] "GET /admin" 403 231
-172.16.0.45 - - [03/Mar/2026:12:15:00] "GET /favicon.ico" 200 450
+192.168.1.10 - - [03/Mar/2026:12:15:00] "GET /favicon.ico" 200 450
 192.168.1.10 - - [03/Mar/2026:12:20:45] "GET /style.css" 200 3200
-10.0.0.5 - - [03/Mar/2026:12:25:12] "POST /login" 200 120
+192.168.1.10 - - [03/Mar/2026:12:25:12] "POST /login" 200 120
 192.168.1.50 - - [03/Mar/2026:12:30:05] "GET /api/data" 500 999
-172.16.0.45 - - [03/Mar/2026:12:35:00] "POST /upload" 403 0
+192.168.1.10 - - [03/Mar/2026:12:35:00] "POST /upload" 403 0
 
 ## 🛠 Answers to the exercises
 ## Level 1: Data isolation:
