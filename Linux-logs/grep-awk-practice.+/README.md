@@ -25,6 +25,7 @@ Task: Extract the exact time of each request using double processing (double sep
 192.168.1.10 - - [03/Mar/2026:12:25:12] "POST /login" 200 120
 192.168.1.50 - - [03/Mar/2026:12:30:05] "GET /api/data" 500 999
 192.168.1.10 - - [03/Mar/2026:12:35:00] "POST /upload" 403 0
+and more
 
 ## 🛠 Answers to the exercises
 ## Level 1: Data isolation:
