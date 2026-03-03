@@ -1,4 +1,4 @@
-# 🐧 Linux Terminal & Log Analysis Lab
+# 🐧 Linux Terminal & SQL Log Analysis Lab
 
 This repository is a reference guide and testing ground for working with the Linux terminal. It contains practical examples of using commands for administration, automation, and in-depth analysis of system logs.
 
