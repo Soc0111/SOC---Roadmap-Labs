@@ -24,4 +24,5 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 12. **[Case 12: (Google)Network-Traffic-Analysis-Incident-Response](./(Google)Network-Traffic-Analysis-Incident-Response)** - Compromised Web Host: Brute Force and Malware Analysis
 13. **[Case 13: (Google)Network-Hardening-Assessment-Risk-Mitigation](./(Google)Network-Hardening-Assessment-Risk-Mitigation)** - Strengthening security policy
 14. **[Case 14: (Google)-Incident-Response-and-Mitigation-Report](./(Google)-Incident-Response-and-Mitigation-Report)** - ICMP DoS Attack
-14. **[Case 15: (Google)-SQL_Practice](./(Google)-SQL_Practice)** - SQL Practice
+15. **[Case 15: (Google)-SQL_Practice](./(Google)-SQL_Practice)** - SQL Practice
+16. **[Case 16: (Google)Network-traffic-analysis-in-Wireshark](./(Google)Network-traffic-analysis-in-Wireshark)** - Traffic analysis lab in Wireshark (Screenshots included)
