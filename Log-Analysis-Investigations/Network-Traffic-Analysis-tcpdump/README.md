@@ -22,7 +22,7 @@ Goal: Determine the active interface (e.g., eth0) for monitoring.
 ### Phase 2: Live Traffic Inspection
 Inspecting traffic in real-time to understand the current network state.
 
-# Capture 5 packets from eth0 with verbose output
+Capture 5 packets from eth0 with verbose output
 sudo tcpdump -i eth0 -v -c5
 Key Flags:
 -i: Specifies the interface.
