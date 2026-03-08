@@ -1,4 +1,4 @@
-## Network Traffic Analysis: tcpdump
+## (Google) Network Traffic Analysis: tcpdump
 ## 🛡️ Project Overview
 This laboratory work focuses on capturing and analyzing live network traffic using **tcpdump** in a Linux environment. As a SOC Analyst, the ability to intercept, filter, and inspect packets is fundamental for detecting anomalies, investigating incidents, and performing network forensics.
 
