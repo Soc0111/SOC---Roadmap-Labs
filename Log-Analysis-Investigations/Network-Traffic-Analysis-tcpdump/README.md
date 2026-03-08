@@ -15,7 +15,7 @@ This laboratory work focuses on capturing and analyzing live network traffic usi
 ### Phase 1: Network Interface Identification
 The first step in any capture is identifying where the traffic flows.
 
-# Identify available interfaces
+Identify available interfaces
 sudo tcpdump -D
 Goal: Determine the active interface (e.g., eth0) for monitoring.
 
@@ -32,14 +32,14 @@ Key Flags:
 ### Phase 3: Targeted Capture (HTTP)
 Capturing specific traffic and saving it for offline analysis — a standard SOC procedure.
 
-# Capture 9 HTTP packets (port 80) and save to PCAP
+Capture 9 HTTP packets (port 80) and save to PCAP
 sudo tcpdump -i eth0 -nn -c9 port 80 -w capture.pcap &
 The Workflow:
 Started tcpdump in the background (&).
 
 ### Phase 4: Forensic Analysis (Reading PCAP)Analyzing the "crime scene" (PCAP file) without affecting the live network.
-# 1)Command tcpdump -nn -r capture.pcap -v;
-# Purpose Standard analysis of headers and protocols.
+1)Command tcpdump -nn -r capture.pcap -v;
+Purpose Standard analysis of headers and protocols.
 
-# 2)Command tcpdump -nn -r capture.pcap -X
-# Purpose Deep inspection: View payload in HEX and ASCII.
+2)Command tcpdump -nn -r capture.pcap -X
+Purpose Deep inspection: View payload in HEX and ASCII.
