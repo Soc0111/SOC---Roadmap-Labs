@@ -27,3 +27,4 @@ Welcome to my Log Analysis Lab. This repository serves as a portfolio of my tech
 15. **[Case 15: (Google)-SQL_Practice](./(Google)-SQL_Practice)** - SQL Practice
 16. **[Case 16: (Google)Network-traffic-analysis-in-Wireshark](./(Google)Network-traffic-analysis-in-Wireshark)** - Traffic analysis lab in Wireshark (Screenshots included)
 17. **[Case 17: (Google)Network-Traffic-Analysis-tcpdump](./(Google)Network-Traffic-Analysis-tcpdump)** - Working with tcpdump
+18. **[Case 18: (Google)Investigating-network-anomalies-using-Suricata-IDS](./(Google)Investigating-network-anomalies-using-Suricata-IDS)** - Working with Suricata
