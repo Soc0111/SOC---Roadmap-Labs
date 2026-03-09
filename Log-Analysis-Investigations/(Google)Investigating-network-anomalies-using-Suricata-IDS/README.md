@@ -2,7 +2,7 @@
 
 ### 🎯 Purpose of the work
 
-# Configuring an intrusion detection system (IDS) to identify specific HTTP requests and analyze the resulting logs in Fast Log and EVE JSON formats.
+## Configuring an intrusion detection system (IDS) to identify specific HTTP requests and analyze the resulting logs in Fast Log and EVE JSON formats.
 
 ### 🛠 Environment
 
