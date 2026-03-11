@@ -1,6 +1,6 @@
-# Case 14: (Google) Incident Response and Mitigation (ICMP DoS Attack)
+# 👾 Case 14: (Google) Incident Response and Mitigation (ICMP DoS Attack)
 
-## Incident Summary
+## ✅ 1) Incident Summary
 **Organization:** Multimedia Company (Web Design & Marketing)  
 **Event Type:** Denial of Service (DoS) via ICMP Flood  
 **Duration:** 2 hours  
@@ -8,7 +8,7 @@
 
 A malicious actor exploited a misconfigured firewall to flood the network with ICMP packets. The Incident Management Team responded by blocking incoming ICMP traffic, offlining non-critical services, and gradually restoring the network perimeter.
 
-## NIST Cybersecurity Framework Analysis
+## 📌 2) NIST Cybersecurity Framework Analysis
 
 Following the National Institute of Standards and Technology (NIST) CSF, I analyzed the incident to improve the organization's security posture:
 
