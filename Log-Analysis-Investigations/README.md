@@ -23,7 +23,7 @@ Here, I perform deep-dives into raw system logs to:
 
 ## 📑 Investigation Index
 
-1.  **[Case 01: SSH Brute Force & Reverse Shell](./Case-01)** — 🔑 Detection of unauthorized access and backdoor installation.
+1.  **[Case 01: SSH Brute Force & Reverse Shell](./SSH-Reverse-Shell-Analysis)** — 🔑 Detection of unauthorized access and backdoor installation.
 2.  **[Case 02: Persistence via Cron](./Case-02)** — 🕒 Analysis of malicious scheduling for long-term access.
 3.  **[Case 03: Phishing Domain Analysis](./Case-03)** — 🎣 Identifying typosquatting and suspicious DNS queries.
 4.  **[Case 04: Unauthorized Account Creation](./Case-04)** — 👤 Detecting account takeover and backdoor user creation.
