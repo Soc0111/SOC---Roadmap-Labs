@@ -1,4 +1,4 @@
-# 💀 Case Study 13: Compromised Web Host: Brute Force Attack & Malware Redirection Analysis
+# 💀 Case Study 12: Compromised Web Host: Brute Force Attack & Malware Redirection Analysis
 
 ## 🕵️‍♂️ 1) Overview:
 This project is dedicated to investigating a security incident involving the web resource yummyrecipesforme.com. During the course of the work, a full cycle of analysis was carried out: from detecting anomalies to developing recommendations for strengthening protection (hardening).
