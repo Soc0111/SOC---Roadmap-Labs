@@ -16,3 +16,5 @@ This project is dedicated to investigating a security incident involving the web
 ### tcpdump (Network Packet Analysis) 
 ### Sandbox Environment (Safe Malware Execution)
 ### screenshots
+![Screenshots](./photo_2026-02-23_23-44-53.jpg)
+![Screenshots](./photo_2026-02-23_23-45-00.jpg)
