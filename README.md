@@ -30,3 +30,13 @@ My work is organized into specialized domains to make it easy to follow my progr
 
 > [!TIP]
 > Check out the **[Investigation Index](./Log-Analysis-Investigations/README.md)** for a full list of 18+ detailed cases, including SSH Brute Force, SQLi detection, and Suricata analysis.
+### 📈 Current Focus & Learning Path
+* 🎓 **Active Study:** Pursuing specialized certifications (Google Cybersecurity, CompTIA Security+).
+* 🛠️ **Labs:** Constantly building new environments to simulate cyber attacks and defense strategies.
+* 🛡️ **Goal:** Providing high-quality security monitoring and incident response in a SOC environment.
+
+---
+
+### 📬 Connect with me
+If you're interested in my work or want to discuss cybersecurity, feel free to reach out!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/)  IN FUTURE
