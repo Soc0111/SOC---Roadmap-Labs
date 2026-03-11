@@ -24,14 +24,14 @@ Here, I perform deep-dives into raw system logs to:
 ## 📑 Investigation Index
 
 1.  **[Case 01: SSH Brute Force & Reverse Shell](./SSH-Reverse-Shell-Analysis)** — 🔑 Detection of unauthorized access and backdoor installation.
-2.  **[Case 02: Persistence via Cron](./Case-02)** — 🕒 Analysis of malicious scheduling for long-term access.
-3.  **[Case 03: Phishing Domain Analysis](./Case-03)** — 🎣 Identifying typosquatting and suspicious DNS queries.
-4.  **[Case 04: Unauthorized Account Creation](./Case-04)** — 👤 Detecting account takeover and backdoor user creation.
-5.  **[Case 05: Data Exfiltration Detection](./Case-05)** — 📤 Identifying unauthorized sensitive data transfers.
-6.  **[Case 06: Failed Privilege Escalation](./Case-06)** — 🪜 Tracking attempted unauthorized access to system files.
-7.  **[Case 07: Reconnaissance & Discovery](./Case-07)** — 📡 Monitoring suspicious commands from restricted accounts.
-8.  **[Case 08: Credential Sniffing in HTTP](./Case-08)** — 🔓 Identifying exposed plaintext passwords in unencrypted traffic.
-9.  **[Case 09: Web Application Attacks — SQLi](./Case-09)** — 💉 Successful SQL injection and directory traversal detection.
+2.  **[Case 02: Persistence via Cron](./Lab-Persistence-Crontab)** — 🕒 Analysis of malicious scheduling for long-term access.
+3.  **[Case 03: Phishing Domain Analysis](./Lab-Phishing-Analysis)** — 🎣 Identifying typosquatting and suspicious DNS queries.
+4.  **[Case 04: Unauthorized Account Creation](./Unauthorized-Account-Creation)** — 👤 Detecting account takeover and backdoor user creation.
+5.  **[Case 05: Data Exfiltration Detection](./Data-Exfiltration-Detection)** — 📤 Identifying unauthorized sensitive data transfers.
+6.  **[Case 06: Failed Privilege Escalation](./Failed-Privilege-Escalation)** — 🪜 Tracking attempted unauthorized access to system files.
+7.  **[Case 07: Reconnaissance & Discovery](./Reconnaissance-Discovery)** — 📡 Monitoring suspicious commands from restricted accounts.
+8.  **[Case 08: Credential Sniffing in HTTP](./Network-Traffic-Sniffing)** — 🔓 Identifying exposed plaintext passwords in unencrypted traffic.
+9.  **[Case 09: Web Application Attacks — SQLi](./Web-Attacks-SQLi-Traversal)** — 💉 Successful SQL injection and directory traversal detection.
 10. **[Case 10: Real-attack-analysis](./Case-10)** — 🏆 Final assessment: brute-force, exfiltration, and anti-forensics.
 11. **[Case 11: (Google)TCP-SYN-Flood-Incident](<./(Google)TCP-SYN-Flood-Incident>)** — 🌊 Practice on the Google Cybersecurity course.
 12. **[Case 12: (Google)Network-Traffic-Analysis-Incident-Response](<./(Google)Network-Traffic-Analysis-Incident-Response>)** — 🌐 Compromised Web Host analysis.
