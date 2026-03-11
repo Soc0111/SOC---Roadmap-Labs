@@ -1,21 +1,57 @@
-Lab: Persistence Mechanisms via Linux Crontab
+# 🕒 Linux Persistence: Crontab Manipulation
 
-Objective
-To demonstrate how an attacker can maintain persistence on a Linux system using the `cron` scheduling utility. This lab simulates a script that automatically executes at regular intervals without user intervention.
+## 🎯 Project Objective
+This laboratory work demonstrates how an attacker can maintain long-term access (Persistence) to a Linux system by abusing the `cron` scheduling utility. The goal is to simulate a malicious script that executes automatically at regular intervals without user intervention.
 
-Methodology
-1. Creation: Developed a Python script (`spy.py`) that logs activity to a hidden file, simulating data exfiltration or heartbeat signals.
-2. Scheduling: Used the `crontab -e` command to schedule the script to run every minute:
-   `* * * * * python3 /home/kali/spy.py`
-3. Verification: Monitored the `hidden_spy_log.txt` file to confirm successful execution by the system daemon.
+---
 
-Evidence
+## 🛠️ Environment & Tools
+| Component | Details |
+| :--- | :--- |
+| **OS** | 🐧 Kali Linux |
+| **Language** | 🐍 Python |
+| **System Tool** | ⏱️ Cron (Job Scheduler) |
+| **Artifacts** | `spy.py` (Script), `hidden_spy_log.txt` (Log) |
+
+---
+
+## 🚀 Methodology & Execution
+
+### 1. 📂 Malicious Script Creation
+I developed a Python script named `spy.py`. This script mimics "heartbeat" signals or data exfiltration by logging timestamps to a hidden file.
+* **Function:** Logs activity status every time it is triggered.
+
+### 2. ⚙️ Persistence Mechanism
+To ensure the script runs every minute, I modified the user's crontab using the `crontab -e` command.
+* **Cron Expression:** `* * * * * python3 /home/kali/spy.py`
+* **Impact:** This ensures that even if the system reboots or the current session ends, the malicious activity will resume automatically.
+
+### 3. ✅ Execution Verification
+I monitored the `hidden_spy_log.txt` file to confirm that the system daemon was successfully triggering the script every 60 seconds.
+
+---
+
+## 📊 Evidence & Analysis
+
 > [!IMPORTANT]
-> Below is the terminal output showing the crontab entry and the resulting log file.
+> **Observation:** The terminal output confirms the successful installation of the new crontab and the subsequent generation of logs with precise 1-minute intervals.
 
-![Crontab Persistence Evidence](photo_2026-02-11_08-20-07.jpg)
+### Terminal Output Tracking:
+![Crontab Persistence Evidence](./photo_2026-02-11_08-20-07.jpg)
 
-SOC Analyst Perspective
-Detection: Analysts should regularly audit user crontabs using `crontab -l` or monitor `/var/spool/cron/` and `/etc/crontab`.
-Behavioral Analysis:** Frequent, automated connections or file writes (Beaconing) are high-fidelity indicators of scheduled persistence.
-Remediation: Remove the unauthorized crontab entry and delete the source script.
+---
+
+## 🛡️ SOC Analyst Perspective: Detection & Defense
+
+### 🔍 Detection Strategy
+1.  **File System Auditing:** Regularly audit user crontabs using `crontab -l -u [username]` or by monitoring `/var/spool/cron/`.
+2.  **Log Analysis:** Look for frequent, automated connections or file writes (Beaconing) which are high-fidelity indicators of scheduled persistence.
+3.  **SIEM Monitoring:** Monitor for execution of `crontab -e` by non-admin users.
+
+### 🛠️ Remediation
+* Remove the unauthorized crontab entry.
+* Identify and delete the source script (`spy.py`).
+* Investigate the initial access vector that allowed the attacker to modify the crontab.
+
+---
+**Status:** 🟢 Completed | **Focus:** Persistence Mechanisms
