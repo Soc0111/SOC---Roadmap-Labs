@@ -1,6 +1,6 @@
 # 🎭 Cyber Threat Simulation & Analysis
 
-Welcome to the **Threat Simulation** lab. This section is dedicated to researching offensive security tactics, understanding how they impact systems, and developing effective defensive strategies. 
+### This section is dedicated to researching offensive security tactics, understanding how they impact systems, and developing effective defensive strategies. 
 
 ---
 
