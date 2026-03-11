@@ -37,5 +37,5 @@ Even if a password is leaked, the attacker cannot gain access without the second
 
 ---
 
-## Conclusion
+## ✅ 5) Conclusion
 By transitioning from default configurations to a hardened security posture, the organization significantly reduces its attack surface. The combination of technical barriers (Firewalls, MFA) and administrative controls (Password Policies) ensures robust protection for user data in the future.
