@@ -32,7 +32,7 @@ Here, I perform deep-dives into raw system logs to:
 7.  **[Case 07: Reconnaissance & Discovery](./Reconnaissance-Discovery)** — 📡 Monitoring suspicious commands from restricted accounts.
 8.  **[Case 08: Credential Sniffing in HTTP](./Network-Traffic-Sniffing)** — 🔓 Identifying exposed plaintext passwords in unencrypted traffic.
 9.  **[Case 09: Web Application Attacks — SQLi](./Web-Attacks-SQLi-Traversal)** — 💉 Successful SQL injection and directory traversal detection.
-10. **[Case 10: Real-attack-analysis](./Case-10)** — 🏆 Final assessment: brute-force, exfiltration, and anti-forensics.
+10. **[Case 10: Real-attack-analysis](./Real-attack-analysis)** — 🏆 Final assessment: brute-force, exfiltration, and anti-forensics.
 11. **[Case 11: (Google)TCP-SYN-Flood-Incident](<./(Google)TCP-SYN-Flood-Incident>)** — 🌊 Practice on the Google Cybersecurity course.
 12. **[Case 12: (Google)Network-Traffic-Analysis-Incident-Response](<./(Google)Network-Traffic-Analysis-Incident-Response>)** — 🌐 Compromised Web Host analysis.
 13. **[Case 13: (Google)Network-Hardening-Assessment-Risk-Mitigation](<./(Google)Network-Hardening-Assessment-Risk-Mitigation>)** — 🏗️ Strengthening security policy.
