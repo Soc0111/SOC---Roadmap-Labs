@@ -1,4 +1,4 @@
-## Network Traffic Analysis in Wireshark (Lab Report) (Images are included near README)
+# 📁 Case Study 16 : Network Traffic Analysis in Wireshark (Lab Report) (Images are included near README)
 ## 🎯 Project Overview
 The purpose of this lab is to perform an in-depth analysis of pre-captured network traffic (.pcap) to identify protocols, 
 filter suspicious activity, and study the structure of packets at different levels of the OSI model in detail.
