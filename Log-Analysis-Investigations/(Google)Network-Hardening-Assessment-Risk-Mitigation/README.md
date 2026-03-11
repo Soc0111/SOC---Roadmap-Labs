@@ -1,11 +1,11 @@
-# Case 13: Network Hardening Assessment & Risk Mitigation
+# 🛡️ Case 13: Network Hardening Assessment & Risk Mitigation
 
-## Project Overview
+## 🔍 1) Project Overview
 In this lab, I acted as a Security Analyst for a social media organization that recently experienced a major data breach. 
 The incident exposed sensitive customer information, including names and addresses. 
 My objective was to analyze the current network infrastructure, identify critical vulnerabilities, and recommend hardening strategies to prevent future compromises.
 
-## Identified Vulnerabilities
+## 🧐 2) Identified Vulnerabilities
 The post-incident audit revealed four primary security gaps:
 1. **Broken Authentication:** Employees were frequently sharing passwords.
 2. **Weak Defaults:** The database administrator password was set to a factory default.
@@ -14,7 +14,7 @@ The post-incident audit revealed four primary security gaps:
 
 ---
 
-## Tech Stack & Hardening Tools
+## 🧱 3) Tech Stack & Hardening Tools
 To address these risks, I selected the following methods from the hardening framework:
 
 * **Multi-factor Authentication (MFA):** Requires users to verify identity through two or more methods (e.g., OTP, biometrics) to thwart brute force and credential sharing.
@@ -23,7 +23,7 @@ To address these risks, I selected the following methods from the hardening fram
 
 ---
 
-## Security Recommendations
+## 📝 4) Security Recommendations
 
 ### 1. Firewall Maintenance & Port Filtering
 * **Effectiveness:** Implementing strict firewall rules and filtering specific port numbers limits unauthorized communication and prevents attackers from entering the private network. 
