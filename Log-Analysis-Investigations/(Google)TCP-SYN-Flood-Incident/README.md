@@ -38,7 +38,7 @@ The investigation revealed the following:
 
 Below is a capture from WireShark showing the high volume of incoming `[SYN]` packets from a single source, which are never completed with an `[ACK]`.
 
-<img src="https://github.com/Sec0111/SOC---Roadmap-Labs/blob/main/Log-Analysis-Investigations/Google-TCP-SYN-Flood-Incident/photo_2026-02-23_21-59-43.jpg" alt="WireShark SYN Flood Screenshot" width="100%">
+(./photo_2026-02-23_21-59-43.jpg)
 
 *Figure 1: High-volume SYN flood capture targeting web server port 443 from IP 203.0.113.0.*
 
