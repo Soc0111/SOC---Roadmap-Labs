@@ -39,4 +39,5 @@ My work is organized into specialized domains to make it easy to follow my progr
 
 ### 📬 Connect with me
 If you're interested in my work or want to discuss cybersecurity, feel free to reach out!
-[![LinkedIn](www.linkedin.com/in/михаил-митасов-95646529b)](https://www.linkedin.com/)  IN FUTURE
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%D0%BC%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%BC%D0%B8%D1%82%D0%B0%D1%81%D0%BE%D0%B2-95646529b)
