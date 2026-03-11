@@ -1,4 +1,4 @@
-# Case 15: (Google) SQL_Practice
+# ✅ Case 15: (Google) SQL_Practice
 
 **Scenario 1: Logistics data analysis (Basic filters)**
 Task: Search for heavy parcels in specific regions to identify logistics anomalies.
