@@ -1,6 +1,6 @@
 # 🛡️ Case Study 02: Persistence via Cron — Malicious Scheduling Analysis 
 
-## 1. Executive Summary
+## 🚀 1. Executive Summary
 During a deep-dive system audit, I identified a critical persistence mechanism. An attacker, having previously obtained root-level privileges, configured a malicious Cron job. This task was designed to automatically download and execute a remote script every time the system's daily maintenance cycle began, ensuring long-term unauthorized access.
 
 ## 📠 2. Evidence (Raw Logs)
