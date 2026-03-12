@@ -1,43 +1,58 @@
-# 🛡️ SOC Analyst Roadmap & Labs
+# 🛡️ Cybersecurity & SOC Analyst Portfolio
 
-Welcome to my cybersecurity portfolio! This repository is a comprehensive collection of my hands-on labs, technical investigations, and practices. I am actively documenting my journey as I transition into the world of Cyber Defense, focusing on SOC Analyst.
-
----
-
-### 🚀 Purpose of this Repository
-The goal of this project is to showcase my practical skills in threat detection, log analysis, and incident response. Here you will find detailed write-ups of real-world scenarios, network traffic analysis, and system hardening.
+Welcome to my cybersecurity research and practice repository. This project documents my journey from foundational security concepts to advanced threat analysis and incident response.
 
 ---
 
-### 🛠️ Tech Stack & Toolbox
+## 🚀 Featured Labs: Threat Analysis & Simulation
+> [!IMPORTANT]
+> **[📂 Threat-analysis-and-practice](./Threat-analysis-and-practice)**
+> 
+> **Это самая важная часть моего портфолио.** Здесь собраны глубокие технические исследования реальных атак. Каждая лаба включает в себя:
+> * **Технический разбор:** Анализ дампов трафика (PCAP) и логов.
+> * **Визуальные доказательства:** Скриншоты из Wireshark, терминалов и SIEM.
+> * **SOC Playbooks:** Пошаговые инструкции по фиксу и митигации угроз без использования простых bash-скриптов — только профессиональный подход.
+
+### 🔬 Key Projects in this folder:
+* **Network Attacks:** UDP/TCP Flooding, RST Flooding, IP Fragmentation.
+* **Reconnaissance:** Service Detection, Stealth & Connect Scanning.
+* **Malware & Persistence:** Ransomware behavior simulation, Crontab persistence.
+* **Forensics:** Phishing domain analysis & SSH Brute-force investigation.
+
+---
+
+## 📚 Foundational Path (Theory & Basic Practice)
+*В этих разделах собрана база, которая позволила мне перейти к сложным симуляциям. Это сочетание теории и практических упражнений.*
+
+* **[📜 Google Cybersecurity Professional Certificate](./Google%20Cybersecurity%20Professional%20Certificate)**
+    * Полный путь сертификации от Google.
+    * Основы Python для ИБ, работа с SQL, управление рисками и основы сетевой безопасности.
+    * *Формат: Полу-теория / Полу-практика.*
+
+* **[🐧 Linux Labs](./Linux-Labs)**
+    * Практика администрирования систем Linux, работа с правами доступа и командной строкой.
+    * Настройка безопасного окружения для дальнейших тестов.
+
+---
+
+## 🛠️ Tech Stack & Specialized Tools
 
 | Category | Tools & Technologies |
 | :--- | :--- |
-| **Operating Systems** | 🐧 Kali Linux |
-| **Network Analysis** | 🦈 Wireshark, Tcpdump, Suricata IDS |
-| **Scripting & Data** | 🐍 Python, Bash, SQL, Grep/Awk |
-| **Security Concepts** | 🕵️‍♂️ Threat Hunting, Log Analysis, NIST Framework, MITRE ATT&CK® |
+| **Analysis** | Wireshark 🦈, Tshark, Tcpdump, Nmap |
+| **Automation** | Python 🐍 (Scapy, Sockets), Bash |
+| **Defense** | Wazuh SIEM, Iptables/Firewalls, IDS/IPS Logic |
+| **Operating Systems** | Kali Linux, Ubuntu Server, Windows (Security Events) |
+| **Frameworks** | NIST Incident Response, MITRE ATT&CK® |
 
 ---
 
-### 📑 Navigation & Investigation Index
+## 👨‍💻 About Me
+Я учусь на 4-м курсе международного права, но мой истинный интерес — **Cybersecurity**. Сейчас я активно готовлюсь к роли **SOC-аналитика**, совмещая аналитическое мышление юриста с глубоким техническим подходом к поиску угроз.
 
-My work is organized into specialized domains to make it easy to follow my progress:
-
-* **📂 Log Analysis:** Deep dives into system and application logs to detect malicious activity.
-* **📂 Network Traffic:** Analyzing PCAP files and configuring IDS rules to identify anomalies.
-* **📂 SQL & Linux Hardening:** Practicing database security and securing Linux environments.
-
-> [!TIP]
-> Check out the **[Investigation Index](./Log-Analysis-Investigations/README.md)** for a full list of 18+ detailed cases, including SSH Brute Force, SQLi detection, and Suricata analysis.
-### 📈 Current Focus & Learning Path
-* 🎓 **Active Study:** Pursuing specialized certifications (Google Cybersecurity, CompTIA Security+).
-* 🛠️ **Labs:** Constantly building new environments to simulate cyber attacks and defense strategies.
-* 🛡️ **Goal:** Providing high-quality security monitoring and incident response in a SOC environment.
+* **Target:** Junior SOC Analyst / Security Researcher.
+* **Focus:** Network Security, Incident Response, Log Analysis.
 
 ---
 
-### 📬 Connect with me
-If you're interested in my work or want to discuss cybersecurity, feel free to reach out!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%D0%BC%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%BC%D0%B8%D1%82%D0%B0%D1%81%D0%BE%D0%B2-95646529b)
+**Status:** 🏗️ Actively Building | **Last Update:** March 2026
