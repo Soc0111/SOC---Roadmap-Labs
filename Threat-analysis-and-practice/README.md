@@ -15,7 +15,7 @@
 
 ## 📑 Investigation Index
 
-1. **[Case 01: SSH Brute Force & Compromise](./SSH-BruteForce-Analysis)** — Analyzing unauthorized access attempts and implementing full Incident Response Plan.
+1. **[Case 01: SSH Brute Force & Compromise](./SSH-BruteForce-Analysis)** — Analyzing unauthorized access attempts and implementing a full Incident Response Plan.
 2. **[Case 02: Persistence via Cron](./Lab-Persistence-Crontab)** — Simulating malicious scheduling to maintain long-term access to a Linux system.
 3. **[Case 03: Phishing Domain Analysis](./Lab-Phishing-Analysis)** — Identifying typosquatting and suspicious DNS queries using network traffic analysis.
 4. **[Case 04: Ransomware Simulation](./Lab-Ransomware-Simulation)** — Behavioral analysis of file encryption and renaming patterns on Linux.
