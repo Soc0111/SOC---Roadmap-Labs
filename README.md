@@ -24,12 +24,12 @@ Welcome to my cybersecurity research and practice repository. This project docum
 ## 📚 Foundational Path (Theory & Basic Practice)
 *These sections represent the essential knowledge base that allowed me to progress toward complex simulations. It is a blend of theoretical frameworks and hands-on foundational exercises.*
 
-* **[📜 Google Cybersecurity Professional Certificate](./Google%20Cybersecurity%20Professional%20Certificate)**
+* **[📜 Google Cybersecurity Professional Certificate](./Log-Analysis-Investigations)**
     * Full certification path provided by Google.
     * Focus: Python for Cybersecurity, SQL for data analysis, Risk Management frameworks, and Network Security fundamentals.
     * *Format: Theoretical / Practical Hybrid.*
 
-* **[🐧 Linux Labs](./Linux-Labs)**
+* **[🐧 Linux Labs](./Linux-logs-and-SQL)**
     * Hands-on Linux system administration, permissions management, and advanced command-line operations.
     * Configuring secure environments for further vulnerability testing and lab simulations.
 
