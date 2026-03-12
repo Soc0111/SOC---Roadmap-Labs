@@ -9,7 +9,7 @@ During a routine network traffic monitoring session, I identified a series of fr
 | Component       | Details                                      |
 |-----------------|----------------------------------------------|
 | **Analysis OS** | 🐧 Kali Linux                                |
-| **Tool Used** | 🦈 Wireshark / Tshark                        |
+| **Tool Used** | 🦈 Wireshark                         |
 | **Scripting** | 🐍 Python (Scapy for packet crafting)        |
 | **Traffic Source**| `frag_scan.pcap`                           |
 | **Focus** | IDS Evasion & Packet Reassembly              |
