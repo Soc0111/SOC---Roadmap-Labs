@@ -39,7 +39,7 @@ Welcome to my cybersecurity research and practice repository. This project docum
 
 | Category | Tools & Technologies |
 | :--- | :--- |
-| **Analysis** | Wireshark 🦈, Tshark, Tcpdump, Nmap |
+| **Analysis** | Wireshark 🦈, Tcpdump, Nmap |
 | **Automation** | Python 🐍 (Scapy, Socket programming), Bash |
 | **Defense** | Wazuh SIEM, Stateful Firewalls, IDS/IPS Logic |
 | **Operating Systems** | Kali Linux, Ubuntu Server, Windows Security Auditing |
