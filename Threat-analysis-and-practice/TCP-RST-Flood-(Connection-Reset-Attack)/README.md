@@ -9,7 +9,7 @@ In this scenario, I investigated a targeted TCP RST (Reset) Flood attack. Unlike
 | Component       | Details                                      |
 |-----------------|----------------------------------------------|
 | **Analysis OS** | 🐧 Kali Linux                                |
-| **Tool Used** | 🦈 Wireshark / Tshark                        |
+| **Tool Used** | 🦈 Wireshark /                         |
 | **Scripting** | 🐍 Python (Scapy for RST packet crafting)    |
 | **Protocol** | TCP (Transmission Control Protocol)          |
 | **Focus** | Session Disruption & State Exhaustion        |
