@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity & SOC Analyst Portfolio
 
-Welcome to my cybersecurity research and practice repository. This project documents my journey from foundational security concepts to advanced threat analysis and incident response.
+Welcome to my cybersecurity research and practice repository. This project documents my professional journey from foundational security concepts to advanced threat analysis, network forensics, and incident response.
 
 ---
 
@@ -8,30 +8,30 @@ Welcome to my cybersecurity research and practice repository. This project docum
 > [!IMPORTANT]
 > **[📂 Threat-analysis-and-practice](./Threat-analysis-and-practice)**
 > 
-> **Это самая важная часть моего портфолио.** Здесь собраны глубокие технические исследования реальных атак. Каждая лаба включает в себя:
-> * **Технический разбор:** Анализ дампов трафика (PCAP) и логов.
-> * **Визуальные доказательства:** Скриншоты из Wireshark, терминалов и SIEM.
-> * **SOC Playbooks:** Пошаговые инструкции по фиксу и митигации угроз без использования простых bash-скриптов — только профессиональный подход.
+> **This is the core of my portfolio.** This directory contains deep technical investigations of real-world attack vectors. Every lab is designed to demonstrate a professional SOC workflow, including:
+> * **Technical Breakdown:** In-depth analysis of packet captures (PCAP) and system logs.
+> * **Visual Evidence:** High-fidelity screenshots from Wireshark, CLI terminals, and SIEM dashboards.
+> * **SOC Playbooks:** Comprehensive mitigation and remediation strategies—focusing on architectural hardening and professional security controls rather than simple scripts.
 
 ### 🔬 Key Projects in this folder:
-* **Network Attacks:** UDP/TCP Flooding, RST Flooding, IP Fragmentation.
-* **Reconnaissance:** Service Detection, Stealth & Connect Scanning.
-* **Malware & Persistence:** Ransomware behavior simulation, Crontab persistence.
-* **Forensics:** Phishing domain analysis & SSH Brute-force investigation.
+* **Network Attacks:** UDP/TCP Flooding, RST Flooding, IP Fragmentation analysis.
+* **Reconnaissance:** Service Fingerprinting, Stealth & Connect Scanning detection.
+* **Malware & Persistence:** Ransomware behavior simulation and Crontab persistence.
+* **Forensics:** Phishing domain analysis & SSH Brute-force incident investigation.
 
 ---
 
 ## 📚 Foundational Path (Theory & Basic Practice)
-*В этих разделах собрана база, которая позволила мне перейти к сложным симуляциям. Это сочетание теории и практических упражнений.*
+*These sections represent the essential knowledge base that allowed me to progress toward complex simulations. It is a blend of theoretical frameworks and hands-on foundational exercises.*
 
 * **[📜 Google Cybersecurity Professional Certificate](./Google%20Cybersecurity%20Professional%20Certificate)**
-    * Полный путь сертификации от Google.
-    * Основы Python для ИБ, работа с SQL, управление рисками и основы сетевой безопасности.
-    * *Формат: Полу-теория / Полу-практика.*
+    * Full certification path provided by Google.
+    * Focus: Python for Cybersecurity, SQL for data analysis, Risk Management frameworks, and Network Security fundamentals.
+    * *Format: Theoretical / Practical Hybrid.*
 
 * **[🐧 Linux Labs](./Linux-Labs)**
-    * Практика администрирования систем Linux, работа с правами доступа и командной строкой.
-    * Настройка безопасного окружения для дальнейших тестов.
+    * Hands-on Linux system administration, permissions management, and advanced command-line operations.
+    * Configuring secure environments for further vulnerability testing and lab simulations.
 
 ---
 
@@ -40,18 +40,18 @@ Welcome to my cybersecurity research and practice repository. This project docum
 | Category | Tools & Technologies |
 | :--- | :--- |
 | **Analysis** | Wireshark 🦈, Tshark, Tcpdump, Nmap |
-| **Automation** | Python 🐍 (Scapy, Sockets), Bash |
-| **Defense** | Wazuh SIEM, Iptables/Firewalls, IDS/IPS Logic |
-| **Operating Systems** | Kali Linux, Ubuntu Server, Windows (Security Events) |
+| **Automation** | Python 🐍 (Scapy, Socket programming), Bash |
+| **Defense** | Wazuh SIEM, Stateful Firewalls, IDS/IPS Logic |
+| **Operating Systems** | Kali Linux, Ubuntu Server, Windows Security Auditing |
 | **Frameworks** | NIST Incident Response, MITRE ATT&CK® |
 
 ---
 
 ## 👨‍💻 About Me
-Я учусь на 4-м курсе международного права, но мой истинный интерес — **Cybersecurity**. Сейчас я активно готовлюсь к роли **SOC-аналитика**, совмещая аналитическое мышление юриста с глубоким техническим подходом к поиску угроз.
+I am a 4th-year **International Law** student with a dedicated focus on **Cybersecurity**. I am currently training for a **SOC Analyst** role, where I combine a legal analytical mindset with a deep technical approach to threat hunting and security engineering.
 
-* **Target:** Junior SOC Analyst / Security Researcher.
-* **Focus:** Network Security, Incident Response, Log Analysis.
+* **Target Role:** Junior SOC Analyst / Security Researcher.
+* **Focus Areas:** Network Security, Incident Response, Log Analysis, Threat Mitigation.
 
 ---
 
