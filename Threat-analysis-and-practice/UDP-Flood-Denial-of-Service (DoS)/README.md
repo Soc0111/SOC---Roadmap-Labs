@@ -9,7 +9,7 @@ This lab simulates a high-volume UDP Flood attack aimed at exhausting the target
 | Component       | Details                                      |
 |-----------------|----------------------------------------------|
 | **Analysis OS** | 🐧 Kali Linux                                |
-| **Tool Used** | 🦈 Wireshark / Wazuh SIEM                    |
+| **Tool Used** | 🦈 Wireshark                   |
 | **Scripting** | 🐍 Python (Custom UDP Flooder)               |
 | **Target IP** | `192.168.0.7`                                |
 | **Focus** | Denial of Service (DoS) & Traffic Scrubbing  |
