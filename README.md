@@ -1,11 +1,19 @@
 # 🛡️ Cybersecurity & SOC Analyst Portfolio
 
 Welcome to my cybersecurity research and practice repository. This project documents my professional journey from foundational security concepts to advanced threat analysis, network forensics, and incident response.
-
+./(SIEM)-Wazuh-and-Suricata
 ---
 
 ## 🚀 Featured Labs: Threat Analysis & Simulation
 > [!IMPORTANT]
+> **[📂 (SIEM)-Wazuh-and-Suricata](./(SIEM)-Wazuh-and-Suricata)**
+>
+> **This is the peak of my current technical portfolio.** I have successfully deployed a production-grade monitoring environment that bridges the gap between raw data and actionable intelligence.
+> **Full-Stack SIEM:** Deployed Wazuh to correlate logs and manage endpoint security.
+> **IDS Integration:** Integrated Suricata as a network-based IDS to catch deep-packet threats that standard logs might miss.
+> **Real-Time Detection:** Successfully mapped simulated attacks (Defense Evasion, Persistence) to the MITRE ATT&CK® framework.
+> **Visibility:** Real-time dashboards for monitoring unauthorized sudo attempts, file integrity (FIM), and network anomalies.
+>
 > **[📂 Threat-analysis-and-practice](./Threat-analysis-and-practice)**
 > 
 > **This is the core of my portfolio.** This directory contains deep technical investigations of real-world attack vectors. Every lab is designed to demonstrate a professional SOC workflow, including:
