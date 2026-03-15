@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Case 18: Investigating Network Anomalies using Suricata IDS 🛡️
+# 🕵️‍♂️ Case 18: Investigating Network Anomalies using Suricata IDS 
 
 ## 🛡️ Project Overview
 In this lab, I performed the deployment and configuration of **Suricata** — a high-performance Network Intrusion Detection and Prevention System (IDS/IPS). The primary objective was to configure the engine for real-time monitoring on a specific network interface, analyze incoming traffic for anomalies, and interpret the generated security events.
