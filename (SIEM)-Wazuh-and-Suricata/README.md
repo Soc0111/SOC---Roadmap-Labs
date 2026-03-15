@@ -29,7 +29,7 @@ Here, I perform:
 This list will grow as I progress through the integration of IDS and SIEM components.
 
 1. **[Case 01: Investigating Network Anomalies using Suricata IDS](./Investigating-Network-Anomalies-using-Suricata-IDS)** — 🚨 Initial setup of Suricata and first captured logs analyzing network reconnaissance and Kali Linux presence.
-2. **[Case 02: (SIEM)-Wazuh-Lab](/(SIEM)-Wazuh-Lab)** — 🏗️ Setting up the SIEM core to receive logs from remote agents.
+2. **[Case 02: (SIEM)-Wazuh-Lab](/(SIEM)-Wazuh)** — 🏗️ Setting up the SIEM core to receive logs from remote agents.
 
 
 ---
