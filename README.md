@@ -1,7 +1,7 @@
 # 🛡️ Cybersecurity & SOC Analyst Portfolio
 
 Welcome to my cybersecurity research and practice repository. This project documents my professional journey from foundational security concepts to advanced threat analysis, network forensics, and incident response.
-./(SIEM)-Wazuh-and-Suricata
+
 ---
 
 ## 🚀 Featured Labs: Threat Analysis & Simulation
