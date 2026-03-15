@@ -29,9 +29,8 @@ Here, I perform:
 This list will grow as I progress through the integration of IDS and SIEM components.
 
 1. **[Case 01: Investigating Network Anomalies using Suricata IDS](./Investigating-Network-Anomalies-using-Suricata-IDS)** — 🚨 Initial setup of Suricata and first captured logs analyzing network reconnaissance and Kali Linux presence.
-2. **[Coming Soon] Wazuh Manager Deployment** — 🏗️ Setting up the SIEM core to receive logs from remote agents.
-3. **[Coming Soon] Suricata & Wazuh Integration** — 🔗 Configuring `ossec.conf` to ingest `eve.json` for real-time alerting in the Wazuh Dashboard.
-4. **[Coming Soon] Automated Threat Response** — ⚡ Implementing active response scripts to block malicious IPs detected by Suricata.
+2. **[Case 02: ] Wazuh Manager Deployment** — 🏗️ Setting up the SIEM core to receive logs from remote agents.
+
 
 ---
 
