@@ -1,15 +1,15 @@
-# Case 18: Investigating Network Anomalies using Suricata IDS 🛡️
+# 🕵️‍♂️ Case 18: Investigating Network Anomalies using Suricata IDS 🛡️
 
-## Project Overview
+## 🛡️ Project Overview
 In this lab, I performed the deployment and configuration of **Suricata** — a high-performance Network Intrusion Detection and Prevention System (IDS/IPS). The primary objective was to configure the engine for real-time monitoring on a specific network interface, analyze incoming traffic for anomalies, and interpret the generated security events.
 
-## Lab Objectives
+## 💡 Lab Objectives
 * Configure the `suricata.yaml` file and verify rule-set paths.
 * Execute Suricata in IDS mode on a live network interface (`wlan0`).
 * Analyze security events through `fast.log` and structured `eve.json` output.
 * Identify suspicious activity (network reconnaissance, specific OS presence in the network).
 
-## Tech Stack & Tools
+## 🏗️ Tech Stack & Tools
 * **IDS:** Suricata 8.0.3
 * **OS:** Kali Linux
 * **Analysis Tools:** `jq` (JSON parsing), `grep`, `tail`
